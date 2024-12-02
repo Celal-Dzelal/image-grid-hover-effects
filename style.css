@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 8.3vh);
+}
+
+.content {
+  border: 5px groove #021c26;
+}
+
+/* grid-area: satır başlangıç/sütun başlangıç/satır bitiş/sütun bitiş */
+
+.contentImg1,
+.contentImg2 {
+  background-position: center;
+  background-size: cover;
+}
+
+.content1 {
+  grid-area: 1/1/4/4;
+  background-image: url(./img/1.jpeg);
+}
+.content17 {
+  grid-area: 2/2/4/4;
+}
+.content2 {
+  grid-area: 1/4/4/7;
+  background-image: url(./img/2.jpeg);
+}
+.content18 {
+  grid-area: 2/4/4/6;
+}
+.content3 {
+  grid-area: 1/7/4/10;
+  background-image: url(./img/3.jpeg);
+}
+.content19 {
+  grid-area: 2/8/4/10;
+}
+.content4 {
+  grid-area: 1/10/4/13;
+  background-image: url(./img/4.jpeg);
+}
+.content20 {
+  grid-area: 2/10/4/12;
+}
+.content5 {
+  grid-area: 4/1/7/4;
+  background-image: url(./img/5.jpeg);
+}
+.content21 {
+  grid-area: 5/2/7/4;
+}
+.content6 {
+  grid-area: 4/4/7/7;
+  background-image: url(./img/6.jpeg);
+}
+.content22 {
+  grid-area: 5/4/7/6;
+}
+.content7 {
+  grid-area: 4/7/7/10;
+  background-image: url(./img/7.jpeg);
+}
+.content23 {
+  grid-area: 5/8/7/10;
+}
+.content8 {
+  grid-area: 4/10/7/13;
+  background-image: url(./img/8.jpeg);
+}
+.content24 {
+  grid-area: 5/10/7/12;
+}
+.content9 {
+  grid-area: 7/1/10/4;
+  background-image: url(./img/9.jpeg);
+}
+.content25 {
+  grid-area: 8/2/10/4;
+}
+.content10 {
+  grid-area: 7/4/10/7;
+  background-image: url(./img/10.jpeg);
+}
+.content26 {
+  grid-area: 8/4/10/6;
+}
+.content11 {
+  grid-area: 7/7/10/10;
+  background-image: url(./img/11.jpeg);
+}
+.content27 {
+  grid-area: 8/8/10/10;
+}
+.content12 {
+  grid-area: 7/10/10/13;
+  background-image: url(./img/12.jpeg);
+}
+.content28 {
+  grid-area: 8/10/10/12;
+}
+.content13 {
+  grid-area: 10/1/13/4;
+  background-image: url(./img/13.jpeg);
+}
+.content29 {
+  grid-area: 11/2/13/4;
+}
+.content14 {
+  grid-area: 10/4/13/7;
+  background-image: url(./img/14.jpeg);
+}
+.content30 {
+  grid-area: 11/4/13/6;
+}
+.content15 {
+  grid-area: 10/7/13/10;
+  background-image: url(./img/15.jpeg);
+}
+.content31 {
+  grid-area: 11/8/13/10;
+}
+.content16 {
+  grid-area: 10/10/13/13;
+  background-image: url(./img/16.jpeg);
+}
+.content32 {
+  grid-area: 11/10/13/12;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 15vh); 
+  }
+}
+
+
